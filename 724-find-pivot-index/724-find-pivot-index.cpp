@@ -10,7 +10,6 @@ public:
                 return i;
             }
             now += nums[i];
-            
         }
         return -1;
     }
