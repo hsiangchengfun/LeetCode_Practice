@@ -13,6 +13,7 @@ public:
                 a+=mpa[s[i]];
             }
         }
+        
 
         for(int i=0;i<t.length();i++){
             if(mpb.find(t[i]) != mpb.end() ){
