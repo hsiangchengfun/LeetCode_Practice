@@ -12,9 +12,7 @@ public:
             x/=10;
         }
         int ans=0;
-        cout<<vec.size();
         for(int i=0;i<vec.size();i++){
-            cout<<"q";
             if(ans >= (pow(2,31)/10) )return 0;
             ans *= 10;
             ans += vec[i];
